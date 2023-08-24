@@ -2134,7 +2134,7 @@ body {
 .digital-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 13px;
   font-weight: 900;
   line-height: 13px;
@@ -2255,7 +2255,7 @@ body {
 .heading {
   z-index: 10;
   color: #f8f8f4;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 300px;
   line-height: 360px;
   position: relative;
@@ -2281,7 +2281,7 @@ body {
   text-align: center;
   letter-spacing: 2px;
   margin-bottom: 60px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   font-weight: 900;
   line-height: 30px;
@@ -2373,7 +2373,7 @@ body {
 
 .heading-4 {
   margin-top: -50px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 290px;
   line-height: 300px;
   position: relative;
@@ -2411,7 +2411,7 @@ body {
 
 .heading-5 {
   margin-bottom: 140px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   font-weight: 900;
   line-height: 30px;
@@ -2419,7 +2419,7 @@ body {
 
 .heading-6 {
   margin-bottom: 40px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   font-weight: 700;
 }
@@ -2454,7 +2454,7 @@ body {
 
 .heading-7 {
   margin-top: -190px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 200px;
   line-height: 580px;
 }
@@ -2477,7 +2477,7 @@ body {
 }
 
 .heading-8 {
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2520,7 +2520,7 @@ body {
   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 140px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   font-weight: 900;
   line-height: 30px;
@@ -2571,7 +2571,7 @@ body {
   letter-spacing: 2px;
   justify-content: space-between;
   align-items: center;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 13px;
   font-weight: 400;
   display: flex;
@@ -2582,7 +2582,7 @@ body {
   color: #191917;
   text-align: right;
   letter-spacing: 2px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 13px;
   font-weight: 900;
   line-height: 13px;
@@ -2705,7 +2705,7 @@ body {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 553px;
   font-weight: 700;
   line-height: 400px;
@@ -2734,7 +2734,7 @@ body {
 
 .about-text {
   text-align: left;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-weight: 500;
 }
 
@@ -2742,14 +2742,14 @@ body {
   width: 100%;
   max-width: 810px;
   margin-top: 0;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   line-height: 30px;
 }
 
 .heading-13 {
   margin-top: 0;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   line-height: 26px;
 }
@@ -2843,7 +2843,7 @@ body {
 
 .concept-section {
   padding: 140px 20px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
 }
 
 .black-text {
@@ -3051,7 +3051,7 @@ body {
 
 .heading-14 {
   margin-bottom: 140px;
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
   font-size: 20px;
   line-height: 26px;
 }
@@ -3061,7 +3061,7 @@ body {
 }
 
 .bold-text {
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
 }
 
 .mobile-image {
@@ -3069,7 +3069,7 @@ body {
 }
 
 .bold-text-2 {
-  font-family: Ffgoodpro, sans-serif;
+  font-family: ui-monospace;
 }
 
 .fixed-banner {
