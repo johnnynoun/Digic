@@ -1,0 +1,357 @@
+@font-face { 
+    font-family: myfont; src: url('./Fonts/photograph-signature.ttf'); } 
+
+body{
+    background-color: black !important;
+    margin: 0;
+    font-family: Times New Roman, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.row{
+    margin: 0 !important;
+}
+
+/*Frame your life starting div */
+.hero-section {
+    background-image: url(images/girl1.jpg);
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-attachment: fixed;
+    margin-top: 60px;
+    padding-top: 70px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+/* .w-container:before, .w-container:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+
+.w-container:after {
+    clear: both;
+}
+
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.hero-body {
+    color: white;
+    text-align: center;
+    margin-top: -150px;
+}
+
+
+.heading{
+    z-index: 10;
+    font-size: 180px;
+    line-height: 160px;
+    position: relative;
+    font-family: myfont;
+}
+
+.heading.digital-text.z-index {
+    z-index: 0;
+    letter-spacing: normal;
+    font-family: Didotlh roman, sans-serif;
+}
+.heading.digital-text {
+    font-weight: 600;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.home-about-section {
+    padding-top: 140px;
+    padding-bottom: 220px;
+}
+#about1 {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.div-block-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heading-2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    font-family: Ffgoodpro, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 26px;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+/* button, [type="button"], [type="reset"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+button {
+    overflow: visible;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+}
+button, input, optgroup, select, textarea {
+
+    margin: 0;
+}
+.slick-prev:before {
+    content: '←';
+}
+.slick-slider {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+} */
+
+
+/*ALBUM Section scrolling images */
+.home-slider-section {
+    position: relative;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+/* WEDDINGS section only */
+.heading-3 {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 163px;
+}
+
+.div-block-3 {
+    width: 100%;
+    letter-spacing: 7px;
+    font-family: Didotlh roman, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.new-collection-section {
+    padding: 60px 20px 100px;
+    position: relative;
+}
+.new-collection-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.background-video {
+    z-index: 1;
+    width: 450px;
+    height: 750px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: clip;
+    }
+
+    .heading-3.z-index {
+        z-index: 1;
+        position: relative;
+    }
+
+
+/* ABOUT US SECTION description */
+    .section {
+        background-color: #fff;
+        background-image: url(images/about-us-photo.jpg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 50vw 50vw;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .div-block-4 {
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        display: grid;
+        position: relative;
+    }
+
+    .div-block-5 {
+        width: 50vw;
+        color: #000;
+        flex-direction: column;
+        
+        padding-left: 30px;
+        display: flex;
+        position: relative;
+    }
+
+    .project-img-div {
+        width: 100%;
+        height: 1400px;
+        cursor: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        display: flex;
+        position: sticky;
+        overflow: hidden;
+    }
+    .heading-4 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: Ffgoodpro, sans-serif;
+        font-size: 200px;
+        line-height: 100px;
+        position: relative;
+    }
+
+    .heading-4.two {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .mobile-image {
+        display: none;
+    }
+
+
+/* FOUNDER SECTION christian */
+    .lab-content {
+        align-items: flex-start;
+        display: flex;
+    }
+    .image-2 {
+        margin: 10%;
+        position: sticky;
+        top: 10px;
+    }
+    .div-block-7 {
+        color: white;
+        width: 40%;
+        flex-direction: column;
+        align-items: stretch;
+        margin-left: -70px;
+        display: flex;
+        position: relative;
+    }
+    .heading-7 {
+        margin-top: 70%;
+        font-family: Ffgoodpro, sans-serif;
+        /* font-size: 200px; */
+    }
+    .heading-8{
+        font-family: Ffgoodpro, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .div-block-9 {
+        margin-bottom: 220px;
+        padding-right: 15%;
+        padding-left: 15%;
+        font-family: Didotlh roman, sans-serif;
+    }
+    .heading-9{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: Didotlh roman, sans-seri
+    }
+
+    /*OUR Highlights */
+    .our-highlights-section {
+        color: #191917;
+        background-color: #f8f8f4;
+        padding: 140px 20px;
+    }
+    .our-highlights-title {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: 140px;
+        font-family: Ffgoodpro, sans-serif;
+        font-weight: 900;
+        line-height: 30px;
+    }
+    .brands-logo-grid {
+        grid-column-gap: 180px;
+        grid-row-gap: 90px;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        margin-bottom: 140px;
+        margin-left: 60px;
+        margin-right: 60px;
+        display: grid;
+    }
+    .w-inline-block {
+        max-width: 100%;
+        display: inline-block;
+    }
