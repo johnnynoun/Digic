@@ -15,6 +15,26 @@ body {
     margin: 0 !important;
 }
 
+/* NAVBAR STYLE */
+nav{
+    background-color: black;
+}
+.navbar-nav li{
+    justify-content: space-between;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+
+
+.homelogo{
+    width: 50px;
+    height: 50px;
+}
+
+
 /*Frame your life starting div */
 .hero-section {
     background-image: url(images/girl1.jpg);
